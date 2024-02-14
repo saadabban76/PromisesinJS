@@ -10,3 +10,6 @@ without blocking the main execution thread.
 2. Promise.allSettled
 3. Promise.race
 4. Promise.any
+
+
+
