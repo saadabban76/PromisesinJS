@@ -46,7 +46,7 @@ const waitingForRestaurentResponse = () => {
 };
 
 const preparingOrder = async () => {
-  Promise.allSettled([
+  Promise.all([
     // updateOrderStatus() : this is already been done in line 17.
     updateMapView(),
     await checkIfDriverAssigned(),
